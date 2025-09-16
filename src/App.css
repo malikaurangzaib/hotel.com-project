@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* font-family: myFirstFont; */
 }
 
 .App-link {
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* @font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("https://mdn.github.io/shared-assets/fonts/VeraSeBd.ttf");
+} */
+@font-face {
+  font-family: 'RobotoCustom';
+  src: url('./assets/fonts/Roboto/Roboto.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  /* font-family: "Bitstream Vera Serif Bold", serif; */
+    font-family: Recoleta, Palatino, Times, "Times New Roman", serif;
+  /* font-family: 'RobotoCustom'; */
+
 }

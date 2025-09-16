@@ -1,0 +1,162 @@
+.travellers-container {
+  position: relative;
+  width: 330px;
+    margin: 0 auto;
+
+  /* height: 50px; */
+
+
+  /* font-family: Arial, sans-serif; */
+}
+
+.travellers-input {
+  display: flex;
+  flex-direction:row;
+  gap:8px;
+  align-items:center;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 6px 12px;
+  height: 46px;
+  min-width: 180px;
+  cursor: pointer;
+  background: #fff;
+}
+.traveller-div{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.travellers-heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.travellers-value {
+  font-size: 16px;
+  color: #111827;
+}
+
+
+
+.travellers-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  width: 320px;
+  z-index: 50;
+}
+
+.room-block {
+  margin-bottom: 20px;
+}
+
+.room-block h4 {
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111827;
+  /* border: 1px solid red; */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.counter button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #d1d5db;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #111827;
+  transition: background 0.2s ease;
+}
+
+.counter button:hover:not(:disabled) {
+  background: #cfebfd;
+  cursor: pointer;
+}
+
+.counter button:disabled {
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.remove-room {
+  background: none;
+  border: none;
+  border-radius: 50px;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-left: 210px;
+  padding: 8px;
+}
+.remove-room:hover {
+  background: #cfebfd;
+}
+
+.add-room {
+  background: none;
+  border: none;
+  border-radius: 50px;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 190px;
+  padding: 8px;
+}
+.add-room:hover {
+  /* margin-left: 190px; */
+  background: #cfebfd
+}
+
+.done-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.done-btn {
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.done-btn:hover {
+  background: #374151;
+}
+
+small {
+  font-size: 12px;
+  color: #6b7280;
+}

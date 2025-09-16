@@ -1,0 +1,50 @@
+.member-discount {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+  top:120px;
+  /* left: 110px; */
+  width: 83.5%;
+  margin: 0 auto;
+  height:50px ;
+  /* justify-content: space-between; */
+  background: #00224f; 
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.tag-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  background-color: #DDD5F3;
+  /* border: 1px solid red; */
+
+
+}
+
+.member-discount p {
+  display:flex;
+  height: 46px;
+  align-items: center;
+  padding: 0px 10px;
+  font-weight:500;
+  font-family: sans-serif;
+  /* border: 1px solid red; */
+
+}
+
+.member-signIn{
+  position: absolute;
+  right:10px;
+  /* border: 1px solid red; */
+
+}
+

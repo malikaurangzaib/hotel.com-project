@@ -1,0 +1,129 @@
+.header {
+  width: 97.5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 0px 12px 0px 24px;
+  height: 72px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+  /* border: 1px solid red;  */
+  font-family: sans-serif;
+}
+
+.logoDiv {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 8px 12px 8px 0px;
+  height: 30px;
+}
+.logoImg {
+  height: 32px;
+  border-radius: 8px;
+}
+.logoTitle {
+  font-weight: 300;
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+}
+
+.dropdownShopTravelWrapper {
+  position: relative;
+  margin-left: 40px;
+}
+.dropdownShopTravelBtn {
+  color: #E61E43;
+  border: none;
+  background: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  /* border: 1px solid red; */
+}
+.chevronIcon {
+  margin-left: 5px;
+}
+.dropdownShopTravelBtn:hover{
+  cursor: pointer;
+  color: red;
+
+}
+
+.dropdownShopTravelMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  padding: 12px 0px;
+  margin-top: 8px;
+  min-width: 370px;
+  z-index: 2000;
+}
+.dropdownShopTravelItem {
+  display: flex;
+  margin: 0;
+  padding: 12px 24px;
+  left:0;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: sans-serif;
+  align-items: start;
+  /* border: 1px solid red; */
+}
+
+.rightMenu {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 0px;
+  color: #E61E43;
+  right: 100px;
+  height: 46px;
+  font-family: sans-serif;
+}
+
+.getAppBtn {
+  display: flex;
+  gap: 6px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 8px 14px;
+  font-weight: 600;
+  background: white;
+}
+.getAppBtn:hover{
+  cursor: pointer;
+  background:  lightgrey;
+}
+
+.rightBtn {
+  border: none;
+  background: none;
+  color: #E61E43;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-weight: 600;
+}
+.chatBtn {
+  border: none;
+  background: none;
+  color: #E61E43;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+
