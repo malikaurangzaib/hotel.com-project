@@ -8,6 +8,8 @@ import MainSearch from "../../Components/WhereToNextDiv/MainSearch";
 import DatePickerDiv from "../../Components/WhereToNextDiv/DatePickerDiv";
 import TravellersDiv from "../../Components/WhereToNextDiv/TravellersDiv";
 import GeneralBtn from "../../Components/GeneralBtn/GeneralBtn";
+import PromoSection from "../../Components/PromoSection/PromoSection";
+import Footer from "../../Components/Footer";
 
 function HotelsOverviewPage() {
   const { slug } = useParams();
@@ -230,8 +232,14 @@ function HotelsOverviewPage() {
           </div>
         </div>
       </div>
+
+
+      <PromoSection/>
+      <Footer/>        
+
     </div>
   );
 }
+
 
 export default HotelsOverviewPage;

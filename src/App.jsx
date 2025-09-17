@@ -46,10 +46,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        
-        
         <Route path="/hotel/:slug" element={<HotelsOverviewPage />} />
-
       </Routes>
     </Router>
   );

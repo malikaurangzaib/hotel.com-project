@@ -84,11 +84,19 @@
 }
 
 .footer-bottom {
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
   margin-top: 40px;
   border-top: 1px solid #ddd;
   padding-top: 16px;
   font-size: 11px;
   font-weight: normal;
   color: #666;
-  line-height: 0.2;
+  line-height: 0;
+  /* border:1px solid red */
+}
+.footer p{
+  margin: 8px auto;
+  /* border: 1px solid red; */
 }

@@ -60,9 +60,9 @@ function DealCard({ deal }) {
       >
       <div className="deal-info">
         <div className="deal-rating">
-          <span className="rating">{deal.rating}</span>{" "}
-          <span className="tag">{deal.tag}</span>
-          <span className="reviews">({deal.reviews} reviews)</span>
+          <div className="rating">{deal.rating}</div>
+          <div className="tag">{deal.tag}</div>
+          <div className="reviews">({deal.reviews} reviews)</div>
         </div>
         <h3>{deal.title}</h3>
         <p className="location">{deal.location}</p>

@@ -27,16 +27,19 @@ function TravellersDiv() {
     setRooms((prev) => prev.filter((_, i) => i !== index));
 
   const updateCount = (index, field, value) => {
+    console.log("hello");
     setRooms((prev) =>
       prev.map((room, i) =>
         i === index
           ? { ...room, [field]: Math.max(0, room[field] + value) }
           : room
+          
       )
     );
   };
 
   return (
+    
     <div className="travellers-container" ref={dropdownRef}>
       <div className="travellers-input" onClick={() => setIsOpen(!isOpen)}>
         <div className="travellers-logo">
