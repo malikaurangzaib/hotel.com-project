@@ -27,7 +27,7 @@ function TravellersDiv() {
     setRooms((prev) => prev.filter((_, i) => i !== index));
 
   const updateCount = (index, field, value) => {
-    console.log("hello");
+    console.log("helloo");
     setRooms((prev) =>
       prev.map((room, i) =>
         i === index
